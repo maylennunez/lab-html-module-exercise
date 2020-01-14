@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+ body {
+   font-family: "Poppins";
+ }
+ html, body{
+   margin: 0;
+   padding: 0;
+ }
+nav {
+background-color: #C12127;
+color: rgba(255,255,255,0.8);
+padding: 5px 5px 5px 10px;
+height:30px;
+display:flex; 
+justify-content: space-between;
+align-items: center;
+margin: 0 auto;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+
+
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.heart {
+  margin-right: 10px;
+}
+
+
+header {
+  background-color: rgb(32, 101, 136);
+  height: 600px;
+  background-image: url(images/city-scape.svg);
+  background-size: cover;
+}
+
+header a {
+color:white;
+text-decoration: none;
+}
+
+.npm-header {
+display: flex; 
+flex-flow: row ;
+justify-content: space-evenly;
+padding: 10px 0 10px 0;
+}
+
+.npm-header li {
+display: inline-block;
+}
+
+#npm-header-image1 {
+width:7%;
+height:7%;
+}
+
+#npm-header-image2 {
+width:20%;
+height:20%;
+
+
+}
+
+
+
+form input {
+background-color: rgb(31, 82, 111);
+color:white;
+width:600px;
+height:30px; 
+}
+
+#button-color {
+background-color: rgb(31, 82, 111);
+border:grey solid 1px;
+height:36px;
+position: relative; 
+right:10px;
+}
+
+.npm-header-ul-styles {
+position: relative; 
+bottom:10px;
+}
+
+.npm-header-ul-styles li {
+color:white;
+}
+
+
+
+.build-div {
+color: white;
+
+
+}
+
+.headerdiv a {
+background-color: rgb(240, 146, 51);
+padding: 20px 30px;
+margin-top: 20px;
+
+}
+
+.headerdiv p {
+margin: 20px 0px;
+
+}
+
+.headerdiv article {
+margin: 0 auto;
+text-align: left;
+width:700px;
+
+
+
+}
+
+#section1 {
+background-color: rgb(39, 53, 71);
+color: white;
+margin-top: 0px; 
+height:600px;
+
+}
+
+#section1 a {
+text-decoration: none;
+color: white;
+
+}
+
+.section-flex {
+display: flex;
+padding-top: 7%;
+
+}
+
+#section1 article {
+width: 500px;
+float: right;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+
+
+
+}
+
+#collab-pic {
+width:600px;
+display: inline-block;
+margin: auto;
+
+}
+
+
+
+.section1-button {
+background-color: rgb(203, 56, 55);
+padding: 20px 30px;
+width:140px;
+text-align: center;
+
+}
+
+
+
+#section2 {
+background-color: rgb(32, 101, 136);
+  height: 600px;
+  background-image: url(images/forklift.svg);
+  background-size: cover;
+ 
+}
+
+
+
+.container {
+margin: 0 auto; 
+width:300px;
+color:white;
+
+}
+
+
+
+#link-btn {
+background-color: rgb(49, 68, 88);
+
+
+
+}
+
+#section2 a {
+color:white;
+text-decoration: none;
+}
+
+
+
+#section3 {
+height:600px;
+
+}
+
+#section3 a {
+color: rgb(208, 74, 73);
+text-decoration: none;
+}
+
+#section3 > div {
+display:flex; 
+justify-content:space-evenly;
+}
+
+#section3 > div > article {
+display:flex; 
+flex-direction:column;
+align-items:center;
+
+
+}
+
+
+#section3 h2 {
+margin-top: 150px;
+text-align: center;
+color:rgb(83, 88, 98);
+
+}
+
+#section3 > div > article > p{
+
+text-align:center;
+}
+
+#text-align {
+text-align: center;
+}
+
+.grey-text {
+color: rgb(135, 145, 156);
+}
+
+
